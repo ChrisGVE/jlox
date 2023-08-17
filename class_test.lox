@@ -1,0 +1,19 @@
+class DevonshireCream {
+    serveOn() {
+        return "Scones";
+      }
+    egotist() {
+        print this;
+      }
+  }
+
+print DevonshireCream;
+
+var iceCream = DevonshireCream();
+print iceCream;
+
+print iceCream.serveOn();
+print iceCream.egotist();
+
+print DevonshireCream().serveOn();
+
